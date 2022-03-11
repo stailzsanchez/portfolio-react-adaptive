@@ -78,11 +78,6 @@ import { RiServiceLine } from 'react-icons/ri'
 const Nav = () => {
     const [ activeNav, setActiveNav ] = useState('#')
 
-    const onNavLinkClick = (e) => {
-        setActiveNav(e.currentTarget.href)
-        alert(activeNav)
-    }
-
     const list = [
         {link: '#', component: <AiOutlineHome/>}, {link: '#about', component: <AiOutlineUser/>},
         {link: '#experience', component: <BsBook/>},
