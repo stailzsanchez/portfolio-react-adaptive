@@ -31,9 +31,8 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         {
-                            listArticles.map(item => 
-                                
-                                    <article className='about__card'>
+                            listArticles.map((item, itemIndex) => 
+                                    <article className='about__card' key={itemIndex}>
                                         {item.component}
                                         <h5>{item.title}</h5>
                                         <small>{item.text}</small>

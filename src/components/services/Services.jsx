@@ -43,15 +43,16 @@ const Services = () => {
             <div className="container services__container">
                 {
                     Object.keys(services).map((serviceKey) => 
-                        <article className='service'>
+                        <article className='service' key={serviceKey}>
                             <div className="service__head">
                                 <h3>{serviceKey}</h3>
                             </div>
 
                             <ul className='service__list'>
                                 {
-                                    services[serviceKey].map(itemText => 
-                                        <li>
+                                    services[serviceKey].map((itemText, itemIndex) => 
+                                        <li key={serviceKey + itemIndex}>
+                                            {console.log(itemText, itemIndex)}
                                             <FaCheck className='service__list-icon'/>
                                             <p>{itemText}</p>
                                         </li>
