@@ -8,14 +8,28 @@ import { IoLogoWhatsapp } from 'react-icons/io'
 import React from 'react'
 
 const HeaderSocials = () => {
+    const iconSize = 25
+    const socials = [
+        { link: 'https://linkedin.com', icon: <BsLinkedin size={iconSize} />},
+        { link: 'https://github.com/stailzgit', icon: <BsGithub size={iconSize} />},
+        { link: 'https://t.me/MrDobryak', icon: <BsTelegram size={iconSize} />},
+        { link: 'viber://chat?number=%2B375298195024', icon: <FaViber size={iconSize} />},
+        { link: 'linkedin.com/in/stanislav-gorenkov-aa303720b', icon: <IoLogoWhatsapp size={iconSize} />},
+    ]
+
     return (
         <div className='header__socials'>
-            <a href="https://linkedin.com" targer="_blank"><BsLinkedin /></a>
-            <a href="https://github.com" targer="_blank"><BsGithub /></a>
-            <a href="https://t.me/MrDobryak" targer="_blank"> <BsTelegram /></a>
-            {/* <a href="https://vk.com/stailzsanchez" targer="_blank"></a> */}
-            <a href="viber://chat?number=%2B375292005818" targer="_blank"><FaViber /></a>
-            <a href="https://linkedin.com" targer="_blank"><IoLogoWhatsapp /></a>
+            {
+                socials.map(item => 
+                    <a 
+                        className='header__social-item'
+                        href={item.link} 
+                        targer="_blank"
+                    >
+                        {item.icon}
+                    </a>
+                )
+            }
         </div>
     )
 }

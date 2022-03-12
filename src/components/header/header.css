@@ -46,6 +46,10 @@ header {
     background: var(--color-primary);
 }
 
+.header__social-item {
+    width: 30px;
+}
+
 
 /* ========================= ME ========================= */
 
