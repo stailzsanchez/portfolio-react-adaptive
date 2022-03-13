@@ -1,9 +1,21 @@
+import './Footer.css'
+
 import React from 'react'
-import style from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer>
+            <a href="#" className='footer__logo'>Portfolio</a>
+
+            <ul className='permalinks'> 
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </footer>
     )
 }
 
