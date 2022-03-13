@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 
-import { A11y, Autoplay, EffectCube, Navigation, Pagination, Scrollbar } from 'swiper';
+import { EffectCube, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import AVATAR1 from '../../assets/Testmonials/avatar1.jpg'
@@ -13,29 +13,7 @@ import AVATAR4 from '../../assets/Testmonials/avatar4.jpg'
 import AVATAR5 from '../../assets/Testmonials/avatar5.jpg'
 import AVATAR6 from '../../assets/Testmonials/avatar6.jpg'
 import AVATAR7 from '../../assets/Testmonials/avatar7.jpg'
-import { EffectFade } from 'swiper';
 import React from 'react'
-
-// import 'swiper/css/navigation';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Import Swiper styles
-
-
-
-
 
 const Testemonials = () => {
     
@@ -76,11 +54,10 @@ const Testemonials = () => {
         pagination: { clickable: true },
         breakpoints:{       
             0:    { slidesPerView: 1,   spaceBetween: 20 },
-            // 320:  { slidesPerView: 1,   spaceBetween: 20 },
             600:  { slidesPerView: 1.5, spaceBetween: 20 },
             900:  { slidesPerView: 2,   spaceBetween: 30 },
-            1050:  { slidesPerView: 2.5,   spaceBetween: 30 },
-            1200: { slidesPerView: 3, spaceBetween: 40 }
+            1050: { slidesPerView: 2.5, spaceBetween: 30 },
+            1200: { slidesPerView: 3,   spaceBetween: 40 }
         }
     }
 
@@ -89,20 +66,7 @@ const Testemonials = () => {
             <h5>Review from clients</h5>
             <h2>Testemonials</h2>
 
-            <Swiper className="container testemonials__container"
-                // modules={[Pagination, EffectCube]}
-                // spaceBetween={50}
-                // slidesPerView={1}
-                // pagination={{ clickable: true }}
-                // breakpoints={{
-                //     0: { slidesPerView: 1, spaceBetween: 20 },
-                //     320: { slidesPerView: 1, spaceBetween: 20 },
-                //     600: { slidesPerView: 1.5, spaceBetween: 20 },
-                //     900: { slidesPerView: 2, spaceBetween: 30 },
-                //     1200: { slidesPerView: 2.5, spaceBetween: 40 }
-                // }}
-                {...swiperParams}
-            >
+            <Swiper {...swiperParams} className="container testemonials__container" >
                 {
                     testmonialsList.map(testmonial => 
                         <SwiperSlide className='testemonial'>
