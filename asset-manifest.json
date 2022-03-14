@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-adaptive/static/css/main.c06eb8f4.css",
+    "main.js": "/portfolio-react-adaptive/static/js/main.e7cd5a54.js",
+    "static/media/avatar6.jpg": "/portfolio-react-adaptive/static/media/avatar6.18e3142e8701f1c43184.jpg",
+    "static/media/avatar2.jpg": "/portfolio-react-adaptive/static/media/avatar2.f91a54c735402ca2c62e.jpg",
+    "static/media/png-human1.png": "/portfolio-react-adaptive/static/media/png-human1.a79cd1864105d4a4b5da.png",
+    "static/media/avatar1.jpg": "/portfolio-react-adaptive/static/media/avatar1.d474631e9789eaaf1545.jpg",
+    "static/media/vk.png": "/portfolio-react-adaptive/static/media/vk.265ad2c008923e3e59b4.png",
+    "static/media/about__img-human.jpg": "/portfolio-react-adaptive/static/media/about__img-human.38433ff14037678a2a59.jpg",
+    "static/media/CV.pdf": "/portfolio-react-adaptive/static/media/CV.4b46558ab2d8058df9d4.pdf",
+    "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
+    "index.html": "/portfolio-react-adaptive/index.html",
+    "main.c06eb8f4.css.map": "/portfolio-react-adaptive/static/css/main.c06eb8f4.css.map",
+    "main.e7cd5a54.js.map": "/portfolio-react-adaptive/static/js/main.e7cd5a54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c06eb8f4.css",
+    "static/js/main.e7cd5a54.js"
+  ]
+}
