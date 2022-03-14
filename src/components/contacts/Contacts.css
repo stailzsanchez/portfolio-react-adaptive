@@ -2,7 +2,7 @@
     width: 58%;
     display: grid;
     grid-template-columns: 30% 50%;
-    gap: 1.2rem;
+    gap: 3rem;
 }
 
 .contact__options {
@@ -48,13 +48,18 @@ form>button {
 
 input,
 textarea {
+    font-size: 1rem;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: #fff;
+}
+
+form>textarea {
+    height: 200px;
 }
 
 

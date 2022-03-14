@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 
-import { EffectCube, Navigation, Pagination } from 'swiper';
+import { EffectCube, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import AVATAR1 from '../../assets/Testmonials/avatar1.jpg'

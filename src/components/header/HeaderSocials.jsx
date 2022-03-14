@@ -24,7 +24,7 @@ const HeaderSocials = () => {
                     <a 
                         className='header__social-item'
                         href={item.link} 
-                        targer="_blank"
+                        target="_blank"
                     >
                         {item.icon}
                     </a>
