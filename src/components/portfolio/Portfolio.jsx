@@ -23,7 +23,7 @@ const Portfolio = () => {
         {
             title: 'Todolist App React Native', 
             linkProject:'https://github.com/stailzgit/rn_todolist', 
-            linkDemo:'https://snack.expo.dev/@stailzsanchez/todo', 
+            linkDemo:'https://expo.dev/@stailzsanchez/todoList', 
             img: RN_TODO
         },
 
