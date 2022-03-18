@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react-adaptive/static/css/main.3fdbda29.css",
+    "main.css": "/portfolio-react-adaptive/static/css/main.92b67564.css",
     "main.js": "/portfolio-react-adaptive/static/js/main.2077d688.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.e5b402bf1ecf03af1b94.png",
     "static/media/car_sharing.png": "/portfolio-react-adaptive/static/media/car_sharing.521cb88bd342ab0f36be.png",
@@ -14,11 +14,11 @@
     "static/media/CV.pdf": "/portfolio-react-adaptive/static/media/CV.4b46558ab2d8058df9d4.pdf",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
-    "main.3fdbda29.css.map": "/portfolio-react-adaptive/static/css/main.3fdbda29.css.map",
+    "main.92b67564.css.map": "/portfolio-react-adaptive/static/css/main.92b67564.css.map",
     "main.2077d688.js.map": "/portfolio-react-adaptive/static/js/main.2077d688.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fdbda29.css",
+    "static/css/main.92b67564.css",
     "static/js/main.2077d688.js"
   ]
 }
