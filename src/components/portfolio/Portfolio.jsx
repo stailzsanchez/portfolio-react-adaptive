@@ -1,16 +1,32 @@
 import './Portfolio.css'
 
+import BUSINESS_CLOSURES from '../../assets/portfolio/business_closures.png'
+import CAR_SHARING from '../../assets/portfolio/car_sharing.png'
 import IMG_VK from '../../assets/portfolio/vk.png'
+import RN_TODO from '../../assets/portfolio/rn_todo.jpg'
 import React from 'react'
 
 const Portfolio = () => {
     const portfolioList = [
-        {title: 'This is a portfolio item title', linkProject:'#', linkDemo:'#', img: IMG_VK},
-        {title: 'This is a portfolio item title', linkProject:'#', linkDemo:'#', img: IMG_VK},
-        {title: 'This is a portfolio item title', linkProject:'#', linkDemo:'#', img: IMG_VK},
-        {title: 'This is a portfolio item title', linkProject:'#', linkDemo:'#', img: IMG_VK},
-        {title: 'This is a portfolio item title', linkProject:'#', linkDemo:'#', img: IMG_VK},
-        {title: 'This is a portfolio item title', linkProject:'#', linkDemo:'#', img: IMG_VK},
+        {
+            title: 'Car sharing adaptive lending', 
+            linkProject:'https://github.com/stailzgit/car_sharing', 
+            linkDemo:'https://stailzgit.github.io/car_sharing/',
+            img: CAR_SHARING
+        },
+        {
+            title: 'Business clousures lending',
+            linkProject:'https://github.com/stailzgit/business_closures', 
+            linkDemo:'https://stailzgit.github.io/business_closures/',
+            img: BUSINESS_CLOSURES
+        },
+        {
+            title: 'Todolist App React Native', 
+            linkProject:'https://github.com/stailzgit/rn_todolist', 
+            linkDemo:'https://snack.expo.dev/@stailzsanchez/todo', 
+            img: RN_TODO
+        },
+
     ]
     return (
         <section id='portfolio'>

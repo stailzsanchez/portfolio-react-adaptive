@@ -8,13 +8,13 @@ import { IoLogoWhatsapp } from 'react-icons/io'
 import React from 'react'
 
 const HeaderSocials = () => {
-    const iconSize = 25
+    const ICON_SIZE = 25
     const socials = [
-        { link: 'https://linkedin.com', icon: <BsLinkedin size={iconSize} />},
-        { link: 'https://github.com/stailzgit', icon: <BsGithub size={iconSize} />},
-        { link: 'https://t.me/MrDobryak', icon: <BsTelegram size={iconSize} />},
-        { link: 'viber://chat?number=%2B375298195024', icon: <FaViber size={iconSize} />},
-        { link: 'linkedin.com/in/stanislav-gorenkov-aa303720b', icon: <IoLogoWhatsapp size={iconSize} />},
+        { link: 'https://linkedin.com', icon: <BsLinkedin size={ICON_SIZE} />},
+        { link: 'https://github.com/stailzgit', icon: <BsGithub size={ICON_SIZE} />},
+        { link: 'https://t.me/MrDobryak', icon: <BsTelegram size={ICON_SIZE} />},
+        { link: 'viber://chat?number=%2B375298195024', icon: <FaViber size={ICON_SIZE} />},
+        { link: 'https://api.whatsapp.com/send?phone=375298195024', icon: <IoLogoWhatsapp size={ICON_SIZE} />},
     ]
 
     return (

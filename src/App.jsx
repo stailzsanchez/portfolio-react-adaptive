@@ -16,7 +16,7 @@ export default function App() {
             <Nav/>
             <About/>
             <Experience/>
-            <Services/>
+            {/* <Services/> */}
             <Portfolio/>
             <Testemonials/>
             <Contacts/>

@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    height: 60vh;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
@@ -10,16 +10,38 @@ header {
     position: relative;
 }
 
+.header__container>h2 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: var(--color-primary)
+}
+
 
 /* .me{
     width: 200px;
     margin: 0 auto;
 } */
 
+.iAmText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    font-size: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    color: var(--color-primary);
+}
+
 
 /* ========================= CTA ========================= */
 
 .cta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -33,18 +55,20 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    top: 50%;
+    transform: translate(0, -50%);
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
 }
 
-.header__socials::after {
+
+/* .header__socials::after {
     content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-}
+} */
 
 .header__social-item {
     width: 30px;
@@ -73,13 +97,19 @@ header {
 
 /* ========================= SCROLL DOWN ========================= */
 
-.scroll__down {
+.wrap__scroll-down {
+    width: 8rem;
+    display: inline;
     position: absolute;
     right: -2.3rem;
-    bottom: 10rem;
-    transform: rotate(90deg);
+    top: 50%;
+    transform: rotate(90deg) translate(0, -50%);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+.inner__scroll-down {
+    display: flex;
 }
 
 
@@ -87,7 +117,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 80vh;
+        height: 60vh;
         padding-top: 3rem;
     }
     .me {
@@ -100,11 +130,17 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 70vh;
         padding-top: 3rem;
     }
     .header__socials,
-    .scroll__down {
+    .wrap__scroll-down {
         display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        height: 80vh;
     }
 }

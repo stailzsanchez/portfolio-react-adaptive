@@ -2,15 +2,15 @@ import './About.css'
 
 import {BsFolderCheck} from 'react-icons/bs'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {GiGiftOfKnowledge} from 'react-icons/gi'
 import ME from '../../assets/about__img-human.jpg'
 import React from 'react'
 
 const About = () => {
     const listArticles = [
-        { title: 'Experience', text: '1+ Year Working', component: <FaAward className='about__icon'/>},
-        { title: 'Clients', text: '200+ Worldwide', component: <FiUsers className='about__icon'/>},
-        { title: 'Projects', text: '80+ Completed', component: <BsFolderCheck className='about__icon'/>},
+        { title: 'Experience', text: '1+ Year Web Dev', icon: <FaAward className='about__icon'/>},
+        { title: 'Prof Aducation', text: '4 years education ', icon: <GiGiftOfKnowledge className='about__icon'/>},
+        { title: 'Pet Projects', text: '8 Completed', icon: <BsFolderCheck className='about__icon'/>},
 
     ]
 
@@ -33,7 +33,7 @@ const About = () => {
                         {
                             listArticles.map((item, itemIndex) => 
                                     <article className='about__card' key={itemIndex}>
-                                        {item.component}
+                                        {item.icon}
                                         <h5>{item.title}</h5>
                                         <small>{item.text}</small>
                                     </article>   

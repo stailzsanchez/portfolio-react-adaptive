@@ -15,7 +15,7 @@ const Nav = () => {
         {link: '#', component: <AiOutlineHome/>},
         {link: '#about', component: <AiOutlineUser/>},
         {link: '#experience', component: <BsBook/>},
-        {link: '#services', component: <RiServiceLine/>},
+        // {link: '#services', component: <RiServiceLine/>},
         {link: '#contacts', component: <BiMessageDetail/>},
     ]
 

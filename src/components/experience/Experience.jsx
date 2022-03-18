@@ -39,7 +39,7 @@ const Experience = () => {
                 {
                     Object.keys(experiences).map(experienceKey => 
                         <div key={experienceKey}>
-                            <h3>Frontend development</h3>
+                            <h3>{experienceKey}</h3>
                             <div className ="experience__content">
                                 {
                                     experiences[experienceKey].map((skill, skillIndex) => 
