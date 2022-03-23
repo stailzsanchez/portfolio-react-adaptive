@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-adaptive/static/css/main.92b67564.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.d49b2b5f.js",
+    "main.js": "/portfolio-react-adaptive/static/js/main.a6cad066.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.e5b402bf1ecf03af1b94.png",
     "static/media/car_sharing.png": "/portfolio-react-adaptive/static/media/car_sharing.521cb88bd342ab0f36be.png",
     "static/media/avatar6.jpg": "/portfolio-react-adaptive/static/media/avatar6.18e3142e8701f1c43184.jpg",
@@ -11,14 +11,14 @@
     "static/media/avatar1.jpg": "/portfolio-react-adaptive/static/media/avatar1.d474631e9789eaaf1545.jpg",
     "static/media/vk.png": "/portfolio-react-adaptive/static/media/vk.265ad2c008923e3e59b4.png",
     "static/media/about__img-human.jpg": "/portfolio-react-adaptive/static/media/about__img-human.38433ff14037678a2a59.jpg",
-    "static/media/CV.pdf": "/portfolio-react-adaptive/static/media/CV.4b46558ab2d8058df9d4.pdf",
+    "static/media/CV.pdf": "/portfolio-react-adaptive/static/media/CV.a735de97bcf7026e0086.pdf",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
     "main.92b67564.css.map": "/portfolio-react-adaptive/static/css/main.92b67564.css.map",
-    "main.d49b2b5f.js.map": "/portfolio-react-adaptive/static/js/main.d49b2b5f.js.map"
+    "main.a6cad066.js.map": "/portfolio-react-adaptive/static/js/main.a6cad066.js.map"
   },
   "entrypoints": [
     "static/css/main.92b67564.css",
-    "static/js/main.d49b2b5f.js"
+    "static/js/main.a6cad066.js"
   ]
 }
