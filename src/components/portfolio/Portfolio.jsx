@@ -2,28 +2,34 @@ import './Portfolio.css'
 
 import BUSINESS_CLOSURES from '../../assets/portfolio/business_closures.png'
 import CAR_SHARING from '../../assets/portfolio/car_sharing.png'
-import IMG_VK from '../../assets/portfolio/vk.png'
+import KROKODIL from '../../assets/portfolio/krokodil.jpg'
 import RN_TODO from '../../assets/portfolio/rn_todo.jpg'
 import React from 'react'
 
 const Portfolio = () => {
     const portfolioList = [
         {
-            title: 'Car sharing adaptive lending', 
-            linkProject:'https://github.com/stailzgit/car_sharing', 
+            title: 'Game guess the word (krokodil)',
+            linkProject:'https://github.com/stailzgit/krokodil',
+            linkDemo:'https://stailzgit.github.io/krokodil/',
+            img: KROKODIL
+        },
+        {
+            title: 'Car sharing adaptive lending',
+            linkProject:'https://github.com/stailzgit/car_sharing',
             linkDemo:'https://stailzgit.github.io/car_sharing/',
             img: CAR_SHARING
         },
         {
             title: 'Business clousures lending',
-            linkProject:'https://github.com/stailzgit/business_closures', 
+            linkProject:'https://github.com/stailzgit/business_closures',
             linkDemo:'https://stailzgit.github.io/business_closures/',
             img: BUSINESS_CLOSURES
         },
         {
-            title: 'Todolist App React Native', 
-            linkProject:'https://github.com/stailzgit/rn_todolist', 
-            linkDemo:'https://expo.dev/@stailzsanchez/todoList', 
+            title: 'Todolist App React Native',
+            linkProject:'https://github.com/stailzgit/rn_todolist',
+            linkDemo:'https://expo.dev/@stailzsanchez/todoList',
             img: RN_TODO
         },
 
@@ -35,13 +41,13 @@ const Portfolio = () => {
 
             <div className="container portfolio__container">
                 {
-                    portfolioList.map((item, itemKey) => 
+                    portfolioList.map((item, itemKey) =>
                         <article key={itemKey} className='portfolio__item'>
-                            
+
                             <div className="portfolio__item-image">
                                 <img src={item.img}  alt="" />
                             </div>
-                            
+
                             <h3>{item.title}</h3>
 
                             <div className="portfolio__item-cta">
@@ -52,7 +58,7 @@ const Portfolio = () => {
                         </article>
                     )
                 }
-            </div> 
+            </div>
         </section>
     )
 }
