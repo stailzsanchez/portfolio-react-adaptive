@@ -1,69 +1,75 @@
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    position: relative;
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  position: relative;
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  aspect-ratio: 1/1;
 }
 
 .portfolio__item-image>img {
-    /* width: cover; */
-    height: 15rem;
-    transition: var(--transition);
+  /* width: cover; */
+  /* height: 15rem; */
+  transition: var(--transition);
+  object-fit: cover;
+  width: 225px;
+  height: 225px;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio__item-image>img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 4rem;
-    word-break: break-word;
+  margin: 1.2rem 0 4rem;
+  word-break: break-word;
 }
 
 .portfolio__item-cta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    position: absolute;
-    bottom: 0;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
 }
 
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 
 @media screen and (max-width: 1024px) {
-    .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
 }
 
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
 
 @media screen and (max-width: 650px) {
-    .portfolio__container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 
