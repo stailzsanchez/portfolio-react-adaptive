@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-react-adaptive/static/css/main.92b67564.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.d5fb1388.js",
+    "main.css": "/portfolio-react-adaptive/static/css/main.266d499c.css",
+    "main.js": "/portfolio-react-adaptive/static/js/main.535d45c5.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.e5b402bf1ecf03af1b94.png",
+    "static/media/orders_map.png": "/portfolio-react-adaptive/static/media/orders_map.a30ecd1ac1a919020110.png",
+    "static/media/krokodil2.jpg": "/portfolio-react-adaptive/static/media/krokodil2.d052744b4077d2bd3639.jpg",
     "static/media/car_sharing.png": "/portfolio-react-adaptive/static/media/car_sharing.521cb88bd342ab0f36be.png",
-    "static/media/krokodil.jpg": "/portfolio-react-adaptive/static/media/krokodil.ad803262e1710d529254.jpg",
     "static/media/avatar6.jpg": "/portfolio-react-adaptive/static/media/avatar6.18e3142e8701f1c43184.jpg",
+    "static/media/cats.png": "/portfolio-react-adaptive/static/media/cats.beb4e8e40e8912280085.png",
     "static/media/avatar2.jpg": "/portfolio-react-adaptive/static/media/avatar2.f91a54c735402ca2c62e.jpg",
     "static/media/png-human1.png": "/portfolio-react-adaptive/static/media/png-human1.a79cd1864105d4a4b5da.png",
     "static/media/rn_todo.jpg": "/portfolio-react-adaptive/static/media/rn_todo.4b8c4f6e086d4aeef3c5.jpg",
     "static/media/avatar1.jpg": "/portfolio-react-adaptive/static/media/avatar1.d474631e9789eaaf1545.jpg",
     "static/media/about__img-human.jpg": "/portfolio-react-adaptive/static/media/about__img-human.38433ff14037678a2a59.jpg",
+    "static/media/user_contacts.png": "/portfolio-react-adaptive/static/media/user_contacts.93d698db3cc97708c947.png",
+    "static/media/postsTable2.png": "/portfolio-react-adaptive/static/media/postsTable2.21dac8537d490a620441.png",
     "static/media/CV.pdf": "/portfolio-react-adaptive/static/media/CV.a735de97bcf7026e0086.pdf",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
-    "main.92b67564.css.map": "/portfolio-react-adaptive/static/css/main.92b67564.css.map",
-    "main.d5fb1388.js.map": "/portfolio-react-adaptive/static/js/main.d5fb1388.js.map"
+    "main.266d499c.css.map": "/portfolio-react-adaptive/static/css/main.266d499c.css.map",
+    "main.535d45c5.js.map": "/portfolio-react-adaptive/static/js/main.535d45c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.92b67564.css",
-    "static/js/main.d5fb1388.js"
+    "static/css/main.266d499c.css",
+    "static/js/main.535d45c5.js"
   ]
 }
