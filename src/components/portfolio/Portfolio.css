@@ -40,7 +40,13 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 4rem;
+  margin: 1rem 0 0;
+  word-break: break-word;
+}
+
+.portfolio__item h3+span {
+  display: inline-block;
+  margin: 0.2rem 0 4rem;
   word-break: break-word;
 }
 
