@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react-adaptive/static/css/main.266d499c.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.8f2b09d2.js",
+    "main.css": "/portfolio-react-adaptive/static/css/main.e852b465.css",
+    "main.js": "/portfolio-react-adaptive/static/js/main.f647de80.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.e5b402bf1ecf03af1b94.png",
     "static/media/orders_map.png": "/portfolio-react-adaptive/static/media/orders_map.a30ecd1ac1a919020110.png",
     "static/media/krokodil2.jpg": "/portfolio-react-adaptive/static/media/krokodil2.d052744b4077d2bd3639.jpg",
@@ -18,11 +18,11 @@
     "static/media/Гореньков_Станислав_FrontendDev.pdf": "/portfolio-react-adaptive/static/media/Гореньков_Станислав_FrontendDev.ab00a0a65f80da4aba0d.pdf",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
-    "main.266d499c.css.map": "/portfolio-react-adaptive/static/css/main.266d499c.css.map",
-    "main.8f2b09d2.js.map": "/portfolio-react-adaptive/static/js/main.8f2b09d2.js.map"
+    "main.e852b465.css.map": "/portfolio-react-adaptive/static/css/main.e852b465.css.map",
+    "main.f647de80.js.map": "/portfolio-react-adaptive/static/js/main.f647de80.js.map"
   },
   "entrypoints": [
-    "static/css/main.266d499c.css",
-    "static/js/main.8f2b09d2.js"
+    "static/css/main.e852b465.css",
+    "static/js/main.f647de80.js"
   ]
 }
