@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-adaptive/static/css/main.e852b465.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.f647de80.js",
+    "main.js": "/portfolio-react-adaptive/static/js/main.f55f73ec.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.e5b402bf1ecf03af1b94.png",
     "static/media/orders_map.png": "/portfolio-react-adaptive/static/media/orders_map.a30ecd1ac1a919020110.png",
     "static/media/krokodil2.jpg": "/portfolio-react-adaptive/static/media/krokodil2.d052744b4077d2bd3639.jpg",
@@ -19,10 +19,10 @@
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
     "main.e852b465.css.map": "/portfolio-react-adaptive/static/css/main.e852b465.css.map",
-    "main.f647de80.js.map": "/portfolio-react-adaptive/static/js/main.f647de80.js.map"
+    "main.f55f73ec.js.map": "/portfolio-react-adaptive/static/js/main.f55f73ec.js.map"
   },
   "entrypoints": [
     "static/css/main.e852b465.css",
-    "static/js/main.f647de80.js"
+    "static/js/main.f55f73ec.js"
   ]
 }
