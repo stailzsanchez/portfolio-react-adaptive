@@ -4,6 +4,7 @@ import BUSINESS_CLOSURES from "../../assets/portfolio/business_closures.png";
 import CAR_SHARING from "../../assets/portfolio/car_sharing.png";
 import KROKODIL from "../../assets/portfolio/krokodil2.jpg";
 import POSTS_TABLE from "../../assets/portfolio/postsTable2.png";
+import FORM_VALIDATION from "../../assets/portfolio/form_validation_feedback.png";
 import ORDERS_MAP from "../../assets/portfolio/orders_map.png";
 import CATS from "../../assets/portfolio/cats.png";
 import USER_CONTACTS from "../../assets/portfolio/user_contacts.png";
@@ -32,6 +33,13 @@ const Portfolio = () => {
       linkProject: "https://github.com/stailzgit/orders_map",
       linkDemo: "https://stailzgit.github.io/orders_map/",
       img: ORDERS_MAP,
+    },
+    {
+      title: "Form validation feedback",
+      used: "react, typescript, custom hooks",
+      linkProject: "https://github.com/stailzgit/validation_form_feedback",
+      linkDemo: "https://stailzgit.github.io/validation_form_feedback/",
+      img: FORM_VALIDATION,
     },
     {
       title: "Cats",
