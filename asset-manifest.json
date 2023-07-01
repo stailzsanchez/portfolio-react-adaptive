@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio-react-adaptive/static/css/main.e852b465.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.e4d32d0c.js",
-    "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.e5b402bf1ecf03af1b94.png",
+    "main.css": "/portfolio-react-adaptive/static/css/main.7206ee5e.css",
+    "main.js": "/portfolio-react-adaptive/static/js/main.293216ff.js",
+    "static/media/business_closures2.png": "/portfolio-react-adaptive/static/media/business_closures2.63002c6744909c63fb17.png",
+    "static/media/shopify.png": "/portfolio-react-adaptive/static/media/shopify.6f7600084016ac6fd9fb.png",
     "static/media/orders_map.png": "/portfolio-react-adaptive/static/media/orders_map.a30ecd1ac1a919020110.png",
+    "static/media/cat-food.png": "/portfolio-react-adaptive/static/media/cat-food.c5cd839a3da2c0e75fa7.png",
     "static/media/krokodil2.jpg": "/portfolio-react-adaptive/static/media/krokodil2.d052744b4077d2bd3639.jpg",
-    "static/media/car_sharing.png": "/portfolio-react-adaptive/static/media/car_sharing.521cb88bd342ab0f36be.png",
     "static/media/avatar6.jpg": "/portfolio-react-adaptive/static/media/avatar6.18e3142e8701f1c43184.jpg",
     "static/media/cats.png": "/portfolio-react-adaptive/static/media/cats.beb4e8e40e8912280085.png",
+    "static/media/car_sharing2.png": "/portfolio-react-adaptive/static/media/car_sharing2.0e347c1033dbcd355bc1.png",
     "static/media/avatar2.jpg": "/portfolio-react-adaptive/static/media/avatar2.f91a54c735402ca2c62e.jpg",
     "static/media/png-human1.png": "/portfolio-react-adaptive/static/media/png-human1.a79cd1864105d4a4b5da.png",
     "static/media/rn_todo.jpg": "/portfolio-react-adaptive/static/media/rn_todo.4b8c4f6e086d4aeef3c5.jpg",
     "static/media/avatar1.jpg": "/portfolio-react-adaptive/static/media/avatar1.d474631e9789eaaf1545.jpg",
+    "static/media/tickets.png": "/portfolio-react-adaptive/static/media/tickets.9942320f341905226701.png",
     "static/media/about__img-human.jpg": "/portfolio-react-adaptive/static/media/about__img-human.38433ff14037678a2a59.jpg",
-    "static/media/user_contacts.png": "/portfolio-react-adaptive/static/media/user_contacts.93d698db3cc97708c947.png",
+    "static/media/dashboard.png": "/portfolio-react-adaptive/static/media/dashboard.d3aca8a794d18df8107e.png",
+    "static/media/Frontend_React_Гореньков_Станислав.pdf": "/portfolio-react-adaptive/static/media/Frontend_React_Гореньков_Станислав.b1434c131f3a24ef2151.pdf",
     "static/media/postsTable2.png": "/portfolio-react-adaptive/static/media/postsTable2.21dac8537d490a620441.png",
-    "static/media/Гореньков_Станислав_FrontendDev.pdf": "/portfolio-react-adaptive/static/media/Гореньков_Станислав_FrontendDev.ab00a0a65f80da4aba0d.pdf",
+    "static/media/user_contacts2.png": "/portfolio-react-adaptive/static/media/user_contacts2.af443866775ae0757a97.png",
     "static/media/form_validation_feedback.png": "/portfolio-react-adaptive/static/media/form_validation_feedback.6fe919e0c681a967de50.png",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
-    "main.e852b465.css.map": "/portfolio-react-adaptive/static/css/main.e852b465.css.map",
-    "main.e4d32d0c.js.map": "/portfolio-react-adaptive/static/js/main.e4d32d0c.js.map"
+    "main.7206ee5e.css.map": "/portfolio-react-adaptive/static/css/main.7206ee5e.css.map",
+    "main.293216ff.js.map": "/portfolio-react-adaptive/static/js/main.293216ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.e852b465.css",
-    "static/js/main.e4d32d0c.js"
+    "static/css/main.7206ee5e.css",
+    "static/js/main.293216ff.js"
   ]
 }
