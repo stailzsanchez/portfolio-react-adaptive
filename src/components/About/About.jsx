@@ -10,7 +10,7 @@ const About = () => {
   const listArticles = [
     {
       title: "Experience",
-      text: "1+ Year Web Dev",
+      text: "2 years web dev",
       icon: <FaAward className="about__icon" />,
     },
     {
@@ -20,7 +20,7 @@ const About = () => {
     },
     {
       title: "Pet Projects",
-      text: "8 Completed",
+      text: "10+ Completed",
       icon: <BsFolderCheck className="about__icon" />,
     },
   ];

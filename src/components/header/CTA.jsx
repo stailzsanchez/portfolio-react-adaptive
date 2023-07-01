@@ -1,4 +1,4 @@
-import CV from "./../../assets/Гореньков_Станислав_FrontendDev.pdf";
+import CV from "./../../assets/Frontend_React_Гореньков_Станислав.pdf";
 import React from "react";
 
 const CTA = () => {

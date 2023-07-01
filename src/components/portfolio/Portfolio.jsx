@@ -1,13 +1,17 @@
 import "./Portfolio.css";
 
-import BUSINESS_CLOSURES from "../../assets/portfolio/business_closures.png";
-import CAR_SHARING from "../../assets/portfolio/car_sharing.png";
+import BUSINESS_CLOSURES from "../../assets/portfolio/business_closures2.png";
+import CAR_SHARING from "../../assets/portfolio/car_sharing2.png";
 import KROKODIL from "../../assets/portfolio/krokodil2.jpg";
+import SHOPIFY from "../../assets/portfolio/shopify.png";
+import DASHBOARD from "../../assets/portfolio/dashboard.png";
+import CAT_FOOD from "../../assets/portfolio/cat-food.png";
+import TICKETS from "../../assets/portfolio/tickets.png";
 import POSTS_TABLE from "../../assets/portfolio/postsTable2.png";
 import FORM_VALIDATION from "../../assets/portfolio/form_validation_feedback.png";
 import ORDERS_MAP from "../../assets/portfolio/orders_map.png";
 import CATS from "../../assets/portfolio/cats.png";
-import USER_CONTACTS from "../../assets/portfolio/user_contacts.png";
+import USER_CONTACTS from "../../assets/portfolio/user_contacts2.png";
 import RN_TODO from "../../assets/portfolio/rn_todo.jpg";
 import React from "react";
 
@@ -28,18 +32,33 @@ const Portfolio = () => {
       img: POSTS_TABLE,
     },
     {
+      title: "User contacts",
+      used: "react, typescript, redux, antd",
+      linkProject: "https://github.com/stailzgit/user_contacts",
+      linkDemo: "https://stailzgit.github.io/user_contacts",
+      img: USER_CONTACTS,
+    },
+    {
       title: "Orders map",
       used: "react, leaflet, antd",
       linkProject: "https://github.com/stailzgit/orders_map",
       linkDemo: "https://stailzgit.github.io/orders_map/",
       img: ORDERS_MAP,
     },
+
     {
-      title: "Form validation feedback",
-      used: "react, typescript, custom hooks",
-      linkProject: "https://github.com/stailzgit/validation_form_feedback",
-      linkDemo: "https://stailzgit.github.io/validation_form_feedback/",
-      img: FORM_VALIDATION,
+      title: "Shopify",
+      used: "react, typescript, sass",
+      linkProject: "https://github.com/stailzgit/shopify",
+      linkDemo: "https://stailzgit.github.io/shopify",
+      img: SHOPIFY,
+    },
+    {
+      title: "Tickets",
+      used: "react, javascript",
+      linkProject: "https://github.com/stailzgit/tickets",
+      linkDemo: "https://stailzgit.github.io/tickets",
+      img: TICKETS,
     },
     {
       title: "Cats",
@@ -49,12 +68,34 @@ const Portfolio = () => {
       img: CATS,
     },
     {
-      title: "User contacts",
-      used: "react, typescript, redux, antd",
-      linkProject: "https://github.com/stailzgit/user_contacts",
-      linkDemo: "https://stailzgit.github.io/user_contacts",
-      img: USER_CONTACTS,
+      title: "Todolist react-native",
+      used: "react-native, redux",
+      linkProject: "https://github.com/stailzgit/rn_todolist",
+      linkDemo: "https://expo.dev/@stailzsanchez/todoList",
+      img: RN_TODO,
     },
+    {
+      title: "Cat food",
+      used: "react, javascript",
+      linkProject: "https://github.com/stailzgit/cat_food",
+      linkDemo: "https://stailzgit.github.io/cat_food",
+      img: CAT_FOOD,
+    },
+    {
+      title: "Dashboard",
+      used: "react, typescript, graphql, react-chartjs-2",
+      linkProject: "https://github.com/stailzgit/dashboard",
+      linkDemo: "https://stailzgit.github.io/dashboard",
+      img: DASHBOARD,
+    },
+    {
+      title: "Form validation feedback",
+      used: "react, typescript, custom hooks",
+      linkProject: "https://github.com/stailzgit/validation_form_feedback",
+      linkDemo: "https://stailzgit.github.io/validation_form_feedback/",
+      img: FORM_VALIDATION,
+    },
+
     {
       title: "Car sharing lending",
       used: "html, css",
@@ -68,13 +109,6 @@ const Portfolio = () => {
       linkProject: "https://github.com/stailzgit/business_closures",
       linkDemo: "https://stailzgit.github.io/business_closures/",
       img: BUSINESS_CLOSURES,
-    },
-    {
-      title: "Todolist react-native",
-      used: "react-native, redux",
-      linkProject: "https://github.com/stailzgit/rn_todolist",
-      linkDemo: "https://expo.dev/@stailzsanchez/todoList",
-      img: RN_TODO,
     },
   ];
   return (
@@ -93,13 +127,19 @@ const Portfolio = () => {
             <span>{item.used}</span>
 
             <div className="portfolio__item-cta">
-              <a href={item.linkProject} className="btn" target="_blank">
+              <a
+                href={item.linkProject}
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github
               </a>
               <a
                 href={item.linkDemo}
                 className="btn btn-primary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Live Demo
               </a>
