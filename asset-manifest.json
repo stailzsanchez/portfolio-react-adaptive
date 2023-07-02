@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react-adaptive/static/css/main.1366de78.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.aa0fa3ee.js",
+    "main.css": "/portfolio-react-adaptive/static/css/main.19f1408c.css",
+    "main.js": "/portfolio-react-adaptive/static/js/main.c465564e.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.b380fbfdf34c57d909f7.png",
     "static/media/orders_map.png": "/portfolio-react-adaptive/static/media/orders_map.a30ecd1ac1a919020110.png",
     "static/media/cat-food.png": "/portfolio-react-adaptive/static/media/cat-food.c5cd839a3da2c0e75fa7.png",
@@ -23,11 +23,11 @@
     "static/media/form_validation_feedback.png": "/portfolio-react-adaptive/static/media/form_validation_feedback.6fe919e0c681a967de50.png",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
-    "main.1366de78.css.map": "/portfolio-react-adaptive/static/css/main.1366de78.css.map",
-    "main.aa0fa3ee.js.map": "/portfolio-react-adaptive/static/js/main.aa0fa3ee.js.map"
+    "main.19f1408c.css.map": "/portfolio-react-adaptive/static/css/main.19f1408c.css.map",
+    "main.c465564e.js.map": "/portfolio-react-adaptive/static/js/main.c465564e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1366de78.css",
-    "static/js/main.aa0fa3ee.js"
+    "static/css/main.19f1408c.css",
+    "static/js/main.c465564e.js"
   ]
 }
