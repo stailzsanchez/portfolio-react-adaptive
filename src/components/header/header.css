@@ -1,19 +1,19 @@
 header {
-    height: 60vh;
-    padding-top: 2rem;
-    overflow: hidden;
+  height: 60vh;
+  padding-top: 2rem;
+  overflow: hidden;
 }
 
 .header__container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 .header__container>h2 {
-    font-size: 3rem;
-    letter-spacing: 0.2rem;
-    color: var(--color-primary)
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  color: var(--color-primary)
 }
 
 
@@ -23,43 +23,43 @@ header {
 } */
 
 .iAmText {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 30%;
-    font-size: 3rem;
-    width: 80%;
-    margin: 0 auto;
-    color: var(--color-primary);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  font-size: 3rem;
+  width: 80%;
+  margin: 0 auto;
+  color: var(--color-primary);
 }
 
 
 /* ========================= CTA ========================= */
 
 .cta {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
 
 /* ========================= HEADER SOCIALS ========================= */
 
 .header__socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 50%;
-    transform: translate(0, -50%);
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
 }
 
 
@@ -71,76 +71,93 @@ header {
 } */
 
 .header__social-item {
-    width: 30px;
+  width: 30px;
 }
 
 
 /* ========================= ME ========================= */
 
 :root {
-    --me-img-width: 18rem;
+  --me-img-width: 18rem;
 }
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    background: var(--color-primary);
-    width: var(--me-img-width);
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - var(--me-img-width) / 2);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem -1.5rem 1.5rem 1.5rem;
+  background: linear-gradient(var(--color-primary), transparent);
+  background: var(--color-primary);
+  width: var(--me-img-width);
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - var(--me-img-width) / 2);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem -1.5rem 1.5rem 1.5rem;
 }
 
 
 /* ========================= SCROLL DOWN ========================= */
 
 .wrap__scroll-down {
-    width: 8rem;
-    display: inline;
-    position: absolute;
-    right: -2.3rem;
-    top: 50%;
-    transform: rotate(90deg) translate(0, -50%);
-    font-weight: 300;
-    font-size: 0.9rem;
+  width: 8rem;
+  display: inline;
+  position: absolute;
+  right: -2.3rem;
+  top: 50%;
+  transform: rotate(90deg) translate(0, -50%);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 .inner__scroll-down {
-    display: flex;
+  display: flex;
 }
 
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: 60vh;
-        padding-top: 3rem;
-    }
-    .me {
-        margin-top: 2rem;
-    }
+  header {
+    height: 60vh;
+    padding-top: 3rem;
+  }
+
+  .me {
+    margin-top: 2rem;
+  }
 }
 
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
 
 @media screen and (max-width: 600px) {
-    header {
-        height: 70vh;
-        padding-top: 3rem;
-    }
-    .header__socials,
-    .wrap__scroll-down {
-        display: none;
-    }
+  header {
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .header__socials,
+  .wrap__scroll-down {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    header {
-        height: 80vh;
-    }
+  header {
+    height: 80vh;
+  }
+}
+
+
+
+/* fix header for small height (iphone 4) */
+@media screen and (max-height: 700px) {
+  header {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  header {
+    height: 120vh;
+  }
 }

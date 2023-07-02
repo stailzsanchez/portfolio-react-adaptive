@@ -1,56 +1,56 @@
-import "./Testemonials.css";
-import "swiper/css";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
+import './Testemonials.css';
+import 'swiper/css';
+import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
 
-import { EffectCube, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCube, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import AVATAR1 from "../../assets/Testmonials/avatar1.jpg";
-import AVATAR2 from "../../assets/Testmonials/avatar2.jpg";
-import AVATAR3 from "../../assets/Testmonials/avatar3.jpg";
-import AVATAR4 from "../../assets/Testmonials/avatar4.jpg";
-import AVATAR5 from "../../assets/Testmonials/avatar5.jpg";
-import AVATAR6 from "../../assets/Testmonials/avatar6.jpg";
-import AVATAR7 from "../../assets/Testmonials/avatar7.jpg";
-import React from "react";
+import AVATAR1 from '../../assets/Testmonials/avatar1.jpg';
+import AVATAR2 from '../../assets/Testmonials/avatar2.jpg';
+import AVATAR3 from '../../assets/Testmonials/avatar3.jpg';
+import AVATAR4 from '../../assets/Testmonials/avatar4.jpg';
+import AVATAR5 from '../../assets/Testmonials/avatar5.jpg';
+import AVATAR6 from '../../assets/Testmonials/avatar6.jpg';
+import AVATAR7 from '../../assets/Testmonials/avatar7.jpg';
+import React from 'react';
 
 const Testemonials = () => {
   const testmonialsList = [
     {
-      name: "Peter Banks",
+      name: 'Peter Banks',
       img: AVATAR1,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
     {
-      name: "Josephine Smith",
+      name: 'Josephine Smith',
       img: AVATAR2,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
     {
-      name: "Joan Harrison",
+      name: 'Joan Harrison',
       img: AVATAR3,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
     {
-      name: "John Maxwell",
+      name: 'John Maxwell',
       img: AVATAR4,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
     {
-      name: "Paul Scott",
+      name: 'Paul Scott',
       img: AVATAR5,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
     {
-      name: "Garey Murphy",
+      name: 'Garey Murphy',
       img: AVATAR6,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
     {
-      name: "Grace Porter",
+      name: 'Grace Porter',
       img: AVATAR7,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!",
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eveniet nostrum cupiditate corrupti repellendus optio esse minus impedit illo necessitatibus!',
     },
   ];
   const swiperParams = {
