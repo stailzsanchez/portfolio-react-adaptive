@@ -38,6 +38,7 @@
   text-align: center;
   transition: var(--transition);
   min-height: 140px;
+
 }
 
 .about__card:hover {
@@ -62,11 +63,14 @@
   color: var(--color-light)
 }
 
-.about__content p {
-  margin: 2rem 0 2.6rem;
+.about__content {
   color: var(--color-light);
 }
 
+.about__exp-items {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 
@@ -103,10 +107,12 @@
   .about__content {
     padding: 0 0.5rem;
     text-align: center;
+    margin: 1.5rem 0 0 0;
+
   }
 
   .about__content p {
-    margin: 1.5rem 0;
+    /* margin: 1.5rem 0; */
   }
 
   .about__card {

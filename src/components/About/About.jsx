@@ -14,7 +14,7 @@ const About = () => {
       icon: <FaAward className="about__icon" />,
     },
     {
-      title: "Prof Aducation",
+      title: "Prof Education",
       text: "4 years",
       icon: <GiGiftOfKnowledge className="about__icon" />,
     },
@@ -25,6 +25,23 @@ const About = () => {
     },
   ];
 
+  const workExp = `
+    - Development of applications on React
+    - Building SPA logic Layouts in AdobeXd/Figma/PSD
+    - Work remote
+    - Stack: js, ts, react, graphql, redux-toolkit, context, jest, github, hasura, postgresql, express.
+     - Working in a team with 4 front-end developers, 2 back-end developers, a designer and a PM.
+    - Issues in Jira, calls every day`;
+
+  // const workExp = [
+  //   "- Development of applications on React",
+  //   "- Building SPA logic Layouts in AdobeXd/Figma/PSD",
+  //   "- Work remote",
+  //   "- Stack: js, ts, react, graphql, redux-toolkit, context, jest, github, hasura, postgresql, express.",
+  //   " - Working in a team with 4 front-end developers, 2 back-end developers, a designer and a PM.",
+  //   "- Issues in Jira, calls every day",
+  // ];
+
   return (
     <section id="about">
       <h5>Get to Know</h5>
@@ -34,7 +51,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="about" />
           </div>
         </div>
 
@@ -49,12 +66,13 @@ const About = () => {
             ))}
           </div>
 
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
-            quia aliquam expedita deserunt saepe quidem amet quam eum
-            accusantium hic molestias quod et qui dolores vel cupiditate non
-            error nesciunt?
-          </p>
+          <div className="about__exp-items">
+            {workExp.split("\n").map((itemExp) => (
+              <p className="about__exp-item" key={itemExp}>
+                {itemExp}
+              </p>
+            ))}
+          </div>
 
           <a href="#contacts" className="btn btn-primary">
             Let's Talk

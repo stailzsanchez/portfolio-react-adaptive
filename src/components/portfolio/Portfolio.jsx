@@ -1,9 +1,10 @@
 import "./Portfolio.css";
+import React from "react";
 
-import BUSINESS_CLOSURES from "../../assets/portfolio/business_closures2.png";
+import BUSINESS_CLOSURES from "../../assets/portfolio/business_closures.png";
 import CAR_SHARING from "../../assets/portfolio/car_sharing2.png";
 import KROKODIL from "../../assets/portfolio/krokodil2.jpg";
-import SHOPIFY from "../../assets/portfolio/shopify.png";
+import SHOPIFY from "../../assets/portfolio/shopify2.png";
 import DASHBOARD from "../../assets/portfolio/dashboard.png";
 import CAT_FOOD from "../../assets/portfolio/cat-food.png";
 import TICKETS from "../../assets/portfolio/tickets.png";
@@ -12,8 +13,7 @@ import FORM_VALIDATION from "../../assets/portfolio/form_validation_feedback.png
 import ORDERS_MAP from "../../assets/portfolio/orders_map.png";
 import CATS from "../../assets/portfolio/cats.png";
 import USER_CONTACTS from "../../assets/portfolio/user_contacts2.png";
-import RN_TODO from "../../assets/portfolio/rn_todo.jpg";
-import React from "react";
+import RN_TODO from "../../assets/portfolio/rn_todo2.jpg";
 
 const Portfolio = () => {
   const portfolioList = [

@@ -22,6 +22,7 @@ const Experience = () => {
       { title: "Antd", lvl: "Intermediate" },
       { title: "Material UI", lvl: "Intermediate" },
       { title: "Bootstrap", lvl: "Intermediate" },
+      { title: "React Native", lvl: "Basic" },
     ],
     [BACK_END]: [
       { title: "GraphQL", lvl: "Intermediate" },
