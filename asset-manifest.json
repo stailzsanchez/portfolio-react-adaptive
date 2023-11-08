@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-adaptive/static/css/main.19f1408c.css",
-    "main.js": "/portfolio-react-adaptive/static/js/main.f748dc2e.js",
+    "main.js": "/portfolio-react-adaptive/static/js/main.eba053b5.js",
     "static/media/business_closures.png": "/portfolio-react-adaptive/static/media/business_closures.b380fbfdf34c57d909f7.png",
     "static/media/orders_map.png": "/portfolio-react-adaptive/static/media/orders_map.a30ecd1ac1a919020110.png",
     "static/media/cat-food.png": "/portfolio-react-adaptive/static/media/cat-food.c5cd839a3da2c0e75fa7.png",
@@ -18,16 +18,16 @@
     "static/media/rn_todo2.jpg": "/portfolio-react-adaptive/static/media/rn_todo2.94682029b01e03efee42.jpg",
     "static/media/about__img-human.jpg": "/portfolio-react-adaptive/static/media/about__img-human.38433ff14037678a2a59.jpg",
     "static/media/dashboard.png": "/portfolio-react-adaptive/static/media/dashboard.7491dabe7ac5fb3303e9.png",
-    "static/media/Frontend_React_Гореньков_Станислав.pdf": "/portfolio-react-adaptive/static/media/Frontend_React_Гореньков_Станислав.b1434c131f3a24ef2151.pdf",
+    "static/media/Frontend_React_Гореньков_Станислав.pdf": "/portfolio-react-adaptive/static/media/Frontend_React_Гореньков_Станислав.a7ec184fb5304f795e35.pdf",
     "static/media/user_contacts2.png": "/portfolio-react-adaptive/static/media/user_contacts2.af443866775ae0757a97.png",
     "static/media/form_validation_feedback.png": "/portfolio-react-adaptive/static/media/form_validation_feedback.6fe919e0c681a967de50.png",
     "static/media/avatar5.jpg": "/portfolio-react-adaptive/static/media/avatar5.d3f9952836dbc2abfcf0.jpg",
     "index.html": "/portfolio-react-adaptive/index.html",
     "main.19f1408c.css.map": "/portfolio-react-adaptive/static/css/main.19f1408c.css.map",
-    "main.f748dc2e.js.map": "/portfolio-react-adaptive/static/js/main.f748dc2e.js.map"
+    "main.eba053b5.js.map": "/portfolio-react-adaptive/static/js/main.eba053b5.js.map"
   },
   "entrypoints": [
     "static/css/main.19f1408c.css",
-    "static/js/main.f748dc2e.js"
+    "static/js/main.eba053b5.js"
   ]
 }
