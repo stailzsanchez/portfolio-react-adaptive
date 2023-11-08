@@ -12,7 +12,7 @@ const HeaderSocials = () => {
   const socials = [
     { link: "https://linkedin.com", icon: <BsLinkedin size={ICON_SIZE} /> },
     {
-      link: "https://github.com/stailzgit",
+      link: "https://github.com/stailzsanchez",
       icon: <BsGithub size={ICON_SIZE} />,
     },
     { link: "https://t.me/MrDobryak", icon: <BsTelegram size={ICON_SIZE} /> },
